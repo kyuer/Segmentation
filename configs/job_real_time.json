@@ -1,0 +1,6 @@
+{
+    "user_id": 12345,
+    "event_type": "payment",
+    "timestamp": "2024-12-07T14:20:00Z",
+    "payment_amount": 30.50
+  }
