@@ -17,16 +17,7 @@ CREATE TABLE user_events (
     payment_amount DECIMAL(10, 2),
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
-CREATE TABLE user_events (
-    event_id BIGINT PRIMARY KEY,
-    user_id BIGINT,
-    event_type VARCHAR(50),
-    event_time TIMESTAMP,
-    duration INT,
-    task_id BIGINT,
-    payment_amount DECIMAL(10, 2),
-    FOREIGN KEY (user_id) REFERENCES users(user_id)
-);
+
 CREATE TABLE custom_campaigns (
     campaign_id BIGINT PRIMARY KEY,
     campaign_name VARCHAR(100),
@@ -44,7 +35,6 @@ CREATE TABLE campaign_records (
     FOREIGN KEY (user_id) REFERENCES users(user_id),
     FOREIGN KEY (campaign_id) REFERENCES custom_campaigns(campaign_id)
 );
-
 CREATE TABLE user_activity (
     user_id VARCHAR(255) PRIMARY KEY, 
     login_times INT, 
