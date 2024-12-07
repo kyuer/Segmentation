@@ -4,6 +4,12 @@ pyspark==3.5.0
 # Delta Lake 支持
 delta-spark==2.4.0
 
+# kafka
+kafka_2.13-3.5.1
+
+# spark
+spark-3.5.0-bin-hadoop3
+
 # Databricks 工具包（可选，用于 Databricks 环境）
 databricks-cli==0.17.7
 
@@ -16,3 +22,6 @@ pandas==1.5.3
 # 数据可视化（可选，用于分析结果的可视化）
 matplotlib==3.7.2
 seaborn==0.12.2
+# mysql
+apache-airflow
+hadoop-3.3.6
