@@ -1,0 +1,18 @@
+# PySpark - 核心框架
+pyspark==3.5.0
+
+# Delta Lake 支持
+delta-spark==2.4.0
+
+# Databricks 工具包（可选，用于 Databricks 环境）
+databricks-cli==0.17.7
+
+# AWS SDK（如果使用 S3 存储）
+boto3==1.28.57
+
+# 数据操作和分析
+pandas==1.5.3
+
+# 数据可视化（可选，用于分析结果的可视化）
+matplotlib==3.7.2
+seaborn==0.12.2
